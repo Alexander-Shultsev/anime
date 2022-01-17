@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Stimulation2</string>
+
+    <!--SignIn and SignUp-->
+    <string name="sign_btn_signIn">Войти</string>
+    <string name="sign_btn_signUp">Создать аккаунт</string>
+
+    <!--SignIn-->
+    <string name="sign_screen_name">Авторизация</string>
+
+    <!--SignUp-->
+    <string name="signUp_name">Регистрация</string>
+
+    <!--EditText hint-->
+    <string name="editText_login">Логин</string>
+    <string name="editText_secondName">Фамилия</string>
+    <string name="editText_firstName">Имя</string>
+    <string name="editText_password">Пароль</string>
+    <string name="editText_patronymic">Отчество</string>
+    <string name="editText_repeatPassword">Повтор пароля</string>
+
+    <!--Worker-->
+    <!--Header-->
+    <string name="worker_header_title_default_name">Иванов Александр</string>
+    <string name="worker_header_coin_default">30</string>
+    <string name="worker_header_crown_default">30</string>
+
+    <!--List title-->
+    <string name="worker_fragment_bonus_title_default">Список бонусов</string>
+    <string name="worker_fragment_history_title_default">История</string>
+    <string name="worker_fragment_rating_title_default">Рейтинг</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_header_type_default">Сотрудник</string>
+    <string name="manager_fragment_worker_list_title_default">Участники</string>
+    <string name="manager_fragment_achievement_list_title_default">Достижения</string>
+    <string name="manager_changeWorker_editText_coin_hint">Монеты</string>
+    <string name="manager_changeWorker_editText_crown_hint">Короны</string>
+    <string name="manager_changeWorker_changeButton_text">Изменить</string>
+    <string name="manager_changeWorker_goBackButton_text">Назад</string>
+    <string name="logout">Выйти</string>
+</resources>

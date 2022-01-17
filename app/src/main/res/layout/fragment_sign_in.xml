@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sign.SignIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="@dimen/paddingHorizontal_main"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/screen_title"
+            style="@style/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_screen_name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/marginVertical_editText"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edit_text_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottom_editText"
+                android:hint="@string/editText_login"
+                android:minHeight="48dp"
+                android:inputType="text"
+                android:autofillHints="@string/editText_login" />
+
+            <EditText
+                android:id="@+id/edit_text_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/editText_password"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:autofillHints="@string/editText_password" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom_signMainBtn"
+            android:text="@string/sign_btn_signIn" />
+
+        <TextView
+            android:id="@+id/btn_goToSignUp"
+            style="@style/signBtnGoTo"
+            android:text="@string/sign_btn_signUp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

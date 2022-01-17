@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Common-->
+    <dimen name="paddingHorizontal_main">30dp</dimen>
+    <dimen name="marginVertical_editText">40dp</dimen>
+    <dimen name="marginBottom_editText">10dp</dimen>
+    <dimen name="marginBottom_signMainBtn">10dp</dimen>
+
+    <!--SignUp-->
+    <dimen name="signUp_marginTop_main_forScroll">50dp</dimen>
+    <dimen name="paddingVertical_header">30dp</dimen>
+
+    <!--Worker-->
+    <!--Header-->
+    <dimen name="worker_header_name_marginBottom">7dp</dimen>
+    <dimen name="worker_header_coin_margin_end">25dp</dimen>
+
+    <!--Fragment-->
+    <dimen name="worker_fragment_title_marginTop">20dp</dimen>
+    <dimen name="worker_fragment_list_marginTop">15dp</dimen>
+
+    <dimen name="manager_changeWorker_editText_marginBottom">20dp</dimen>
+    <dimen name="manager_changeWorker_editTexts_gap">10dp</dimen>
+    <dimen name="manager_change_worker_text_makeManager">40dp</dimen>
+    <dimen name="manager_changeWorker_title_marginBottom">20dp</dimen>
+</resources>

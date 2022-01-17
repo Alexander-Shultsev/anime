@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="title">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="info_img">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+    </style>
+
+    <style name="big_number">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="worker_fragment_bonus_title_default">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="signBtnGoTo" parent="worker_fragment_bonus_title_default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="small">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="subtitle2">
+        <item name="android:textSize">17sp</item>
+    </style>
+</resources>
